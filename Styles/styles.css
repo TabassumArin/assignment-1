@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+header{
+    text-align: center;
+    width: 1320px;
+    margin: auto;
+    margin-top: 40px;
+    height: 600px;
+    border-radius: 16px;
+    color: bisque;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+    
+}
+
+.newyear{
+    margin: auto;
+    width: 400px;
+    padding-top: 150px;
+}
+
+.newyear>p{
+    color: antiquewhite;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.celebrate{
+    color: antiquewhite;
+    font-size: 44px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 70px;
+}
+
+.offer{
+    margin: auto;
+    width: 60%;
+}
+
+.heading{
+    text-align: center;
+}
+
+.discount{
+    color: rgb(230, 12, 12);
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.categories{
+    color: rgb(35, 5, 5);
+    font-size: 50px;
+    font-weight: 650;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+    text-align: center;
+}
+
+.holiday{
+    color: rgb(242, 13, 13);
+    font-size: 25px;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+    text-align: center;
+}
+
