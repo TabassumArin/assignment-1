@@ -73,3 +73,88 @@ header{
     text-align: center;
 }
 
+
+.party-banner{
+    width: 45%;
+    margin: auto;
+    
+}
+
+.title-welcome{
+    color: #FFF;
+font-family: 'Times New Roman', Times, serif;
+font-size: 60px;
+font-weight: 900;
+line-height: 90px; 
+letter-spacing: 7px;
+}
+
+.welcome{
+    margin: auto;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    width: 1320px;
+    border-radius: 20px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.details{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 35px; 
+    color: rgba(243, 225, 225, 0.8);
+}
+
+.party-time{
+    background: linear-gradient(180deg, #dea5c4 0%, rgba(7, 2, 17, 0.00) 100%);
+   width: 1320px;
+   border-radius: 16px;
+   height: 482px;
+   margin: auto;
+   margin-top: 40px;
+   
+}
+
+.group70{
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 128px;
+    margin: auto;
+    opacity: 1;
+}
+
+
+.party-info{
+    padding: 75px;
+    margin: auto;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 300px;
+    font-weight: 500;
+    line-height: 55px;
+    text-align: center;
+}
+
+.party-info>button{
+    color: rgb(228, 244, 244);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #F00;
+    
+}
+
+.tomato{
+    color: red;
+}
