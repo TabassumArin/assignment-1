@@ -1,6 +1,7 @@
 body{
     width: 100%;
     margin: auto;
+    font-family: 'Merriweather', serif;
 }
 header{
     text-align: center;
@@ -119,15 +120,110 @@ letter-spacing: 7px;
    
 }
 
-.group70{
+/* bonus */
+
+.ellipse img {
+    width: 87%;
+    padding: 20px;
+    height: auto;
+    display: block;
+    
+}
+
+.ellipse{
+    overflow: hidden;
+    width: 400px; 
+    height: 300px; 
+    border-radius: 50%;
+    border: 10px solid red;
+
+}
+
+.offersoon{
+    margin: auto;
+    padding-top: 100px;
+    width: 1320px;
+    height: 500px;
     display: flex;
-    width: 319.83px;
-    height: 464.662px;
-    padding: 0.008px 0px 0px 0px;
+    justify-content: space-between;
+    
+    
+}
+
+.comsoon{
+    width: 397px;
+    padding-right: 200px;
+}
+.greet{
+    width: 397px;
+    padding-left: 200px;
+}
+
+.htitle{
+    font-size: 30px;
+}
+
+.hbanner{
+    margin: auto;
+    margin-bottom: 120px;
+    width: 1320px;
+    height: 660px;
+    background-image: url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sale2{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 110px;
+   
+}
+
+.sale2 h1>span{
+    color: red;
+}
+.sale2 h1{
+    font-size: 55px;
+}
+
+
+.rg75{
+    width: 380px;
+    height: 380px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.rg44{
+    overflow: auto;
+    width: 206px;
+    height: 206px;
+    overflow: auto;
+    padding: 50px 0 40px 200px ;
+    
+}
+.rr1{
+    overflow:auto;
+    width: 429px;
+    height: 432px;
+    
+    
+}
+/* bomus end */
+
+.group70{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
     margin-right: 128px;
     margin: auto;
     opacity: 1;
